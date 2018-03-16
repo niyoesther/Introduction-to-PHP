@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title></title>
+	</head>
+	<body>
+	<p>
+    <?php
+    $a=9;
+    if($a == 0){
+        echo "the number is equal to 0";
+        }
+    elseif($a < 0){
+        echo "the number is negative"
+    }
+    else{
+        echo "the number is positive"
+        }
+    ?>
+    </p>
+    </body>
+</html>
